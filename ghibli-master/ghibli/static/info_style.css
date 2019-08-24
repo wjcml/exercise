@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+}
+
+.div_total {
+	width: 1000px;
+	display: block;
+	margin:auto; 
+}
+
+.block{
+    display: block;
+    margin:5px 0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+span{
+    vertical-align: top;
+    width: 400px;
+    line-height: 25px;
+}
+
+button {
+    font-weight: bold;
+    min-width:100px;
+}

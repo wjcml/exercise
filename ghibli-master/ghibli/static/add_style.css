@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+}
+
+.div_total {
+	width: 1000px;
+	display: block;
+	margin:auto; 
+	text-align: center;
+}
+
+.block{
+    display: block;
+    margin:5px 0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input,textarea{
+    vertical-align: top;
+    width: 400px;
+    line-height: 25px;
+}
+
+.div_action {
+    padding-top:10px;
+}
+
+button {
+    font-weight: bold;
+    height      : 25px;
+    line-height : 25px;
+    min-width:100px;
+}
+
+.div_submit, .div_return {
+    display: inline-block;
+}
+
+.div_submit {
+    padding-left: 100px;
+    padding-right: 100px;
+}

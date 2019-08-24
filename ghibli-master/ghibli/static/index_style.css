@@ -1,0 +1,89 @@
+h1 {
+	text-align: center;
+}
+
+.div_total {
+	width: 1000px;
+	display: block;
+	margin:auto; 
+}
+
+.div_table_heading, .div_table_body, .div_table_foot, .div_table_row {
+	clear: both;
+}
+
+.div_table_head, .div_table_head_id, .div_table_head_title, .div_table_head_last, .div_table_foot {
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+.div_table_cell, .div_table_head {
+	border: 1px solid #999999;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	padding: 3px 1.8%;
+	width: 4%;
+}
+
+.div_table_cell_id, .div_table_head_id {
+	border: 1px solid #999999;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	padding: 3px 1.8%;
+	width: 33%;
+}
+
+.div_table_cell_title, .div_table_head_title {
+	border: 1px solid #999999;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	padding: 3px 1.8%;
+	width: 14%;
+}
+
+.div_table_cell_last, .div_table_head_last {
+	border: 1px solid #999999;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	padding: 3px 1.8%;
+	width: 10.4%;
+}
+
+.div_table:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.div_action {
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+.div_refresh, .div_add_film {
+	display: inline-block;
+}
+
+.div_refresh {
+	padding-right: 10px;
+}
+
+.span_msg {
+	color: red;
+}
+
+.span_msg_title {
+	font-weight: bold;
+	color: black;
+}
+
+.div_msg {
+	text-align: left;
+}

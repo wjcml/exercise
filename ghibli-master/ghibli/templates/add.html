@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/add_style.css" />
+    <script src="/static/ghibli.js" type='text/javascript'></script>
+    <title>吉卜力工作室电影</title>
+</head>
+
+<body>
+    <h1>吉卜力工作室电影</h1>
+    <div class="div_total">
+        <form action="{{ url_for('add_film') }}" method="post">
+            <div class="block">
+                <label for="id">电影编号：</label>
+                <input name="id" type="text" />
+            </div>
+            <div class="block">
+                <label for="title">电影名称：</label>
+                <input name="title" type="text" />
+            </div>
+            <div class="block">
+                <label for="director">导演：</label>
+                <input name="director" type="text" />
+            </div>
+            <div class="block">
+                <label for="producer">制片人：</label>
+                <input name="producer" type="text" />
+            </div>
+            <div class="block">
+                <label for="release_date">发行日期：</label>
+                <input name="release_date" type="text" />
+            </div>
+            <div class="block">
+                <label for="rt_score">评分：</label>
+                <input name="rt_score" type="text" />
+            </div>
+            <div class="block">
+                <label for="url">网址：</label>
+                <input name="url" type="text" />
+            </div>
+            <div class="block">
+                <label for="description">电影介绍：</label>
+                <textarea rows="10" name="description" type="text"></textarea>
+            </div>
+            <div class="block">
+                <label for="location">location：</label>
+                <input name="location" type="text" />
+            </div>
+            <div class="div_action">
+                <div class="div_submit">
+                    <button type="submit">提交</button>
+                </div>
+                <div class="div_return">
+                    <button type="button" onclick="location.href='/'">返回</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="div_total">
+        <h1>单独添加Location</h1>
+        <form action="{{ url_for('add_location') }}" method="post">
+            <div class="block">
+                <label for="film_id">电影编号：</label>
+                <input name="film_id" type="text" />
+            </div>
+            <div class="block">
+                <label for="Location">Location：</label>
+                <input name="Location" type="text" />
+            </div>
+            <div class="div_action">
+                <div class="div_submit">
+                    <button type="submit">提交</button>
+                </div>
+                <div class="div_return">
+                    <button type="button" onclick="location.href='/'">返回</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
