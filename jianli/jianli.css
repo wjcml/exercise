@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white
+}
+.raw{
+    width: 96%;
+    margin: 0 auto;
+}
+.info{
+    width: 100%;
+    height: 130px;
+    padding-top: 30px;
+    border-bottom: rgb(177, 174, 174) 1px solid;
+}
+.info_l{
+    width: 80%;
+    float: left;
+}
+.info_img{
+    width: 20%;
+    float: left;
+}
+.info_img img{
+    width: 100px;
+}
+.info_detail, .adv_detail ul{
+    margin-top: 20px;
+}
+.info_detail span{
+    padding: 0 30px;
+    border-left: rgb(177, 174, 174) 1px solid;
+}
+.info_detail span:nth-child(1){
+    border-left: rgb(177, 174, 174) 0px solid !important;
+}
+
+
+.adv{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: rgb(177, 174, 174) 1px solid;
+}
+.adv h2, .position h2, .exp h2, .project_exp h2, .edu_exp h2{
+    border-left: rgb(63, 226, 199) 3px solid;
+    text-indent: 1em
+}
+
+.adv_detail{
+    text-indent: 2em;
+}
+.adv_detail li{
+    list-style: none;
+}
+
+
+.position{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: rgb(177, 174, 174) 1px solid;
+}
+.position_detail{
+    margin-top: 20px;
+}
+.position p{
+    margin-bottom: 10px;
+}
+.position_detail p span{
+    padding: 0 30px;
+    border-left: rgb(177, 174, 174) 1px solid;
+}
+.position_detail p span:nth-child(1){
+    border-left: rgb(177, 174, 174) 0px solid !important;
+}
+
+
+.exp{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: rgb(177, 174, 174) 1px solid; 
+}
+.exp_detail{
+    margin-top: 20px;
+}
+.c_position{
+    margin-top: 10px;
+}
+.c_t_p{
+    width: 75%;
+    float: left;
+}
+.date{
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.work_content{
+    margin-top: 10px;
+}
+
+
+.project_exp{
+    width: 100%;
+    margin-top: 30px;
+    /* height: 430px; */
+    border-bottom: rgb(177, 174, 174) 1px solid; 
+    padding-bottom: 20px;
+}
+.pro_detail{
+    margin-top: 20px;
+}
+.pos_date{
+    margin-top: 10px;
+}
+.pos{
+    width: 75%;
+    float: left;
+}
+.pro_desc p{
+    margin-top: 10px;
+}
+
+
+.edu_exp{
+    width: 100%;
+    margin-top: 30px;
+    /* height: 430px; */
+    border-bottom: rgb(177, 174, 174) 1px solid; 
+    padding-bottom: 20px;
+}
+.edu_detail{
+    margin-top: 20px;
+}
+.edu_pro{
+    margin-top: 10px;
+}
+.edu_pro_exp{
+    width: 75%;
+    float: left;
+}
+.edu_pro_exp span{
+    padding: 0 30px;
+    border-left: rgb(177, 174, 174) 1px solid;
+}
+.certificate{
+    margin-top: 10px;
+}
