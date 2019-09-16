@@ -1,0 +1,8 @@
+--index https://pypi.douban.com/simple/
+flask
+SQLAlchemy
+PyMySQL
+flask-cors
+transitions
+schedule
+requests
