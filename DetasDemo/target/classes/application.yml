@@ -1,0 +1,15 @@
+server:
+  port: 8080
+#  context-path: /demo
+
+spring:
+  application:
+    name: spring yaml example
+  datasource:
+    url: jdbc:mysql://localhost:3306/detas?serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

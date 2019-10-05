@@ -1,10 +1,12 @@
 package com.tutorialspoint;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class HelloIndia {
 	   private String message1;
 	   private String message2;
 	   private String message3;
-
+	   
 	   public void setMessage1(String message){
 	      this.message1  = message;
 	   }
