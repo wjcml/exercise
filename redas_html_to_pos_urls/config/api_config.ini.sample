@@ -1,3 +1,0 @@
-# api_config(UTF-8)
-[api_url_config]
-send_url=http://127.0.0.1:8080/position/addUrl

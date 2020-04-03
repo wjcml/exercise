@@ -1,5 +1,0 @@
-# mq_config(UTF-8)
-[mq_position_detail_html]
-host=192.168.0.4:9092
-group=position_detail_html
-topic=position_detail_html
